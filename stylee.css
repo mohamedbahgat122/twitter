@@ -1,0 +1,460 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: flex;
+
+}
+
+header {
+    width: 30%;
+    height: 70%;
+    position: sticky;
+    top: 0;
+}
+
+header.top {
+    display: flex;
+    flex-direction: column;
+}
+
+header .top a>* {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 30%;
+    padding-top: 10px;
+}
+
+header .top a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    width: max-content;
+}
+
+header .top span {
+    margin-left: 10px;
+}
+
+header .top a:hover {
+    background-color: gray;
+    border-radius: 20px;
+
+}
+
+.top button {
+    cursor: cell;
+    background-color: #21a3fa;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    width: 230px;
+    transition: 0.5s;
+}
+
+.top button:hover {
+    background-color: #2087cc;
+}
+
+/* _________right__________ */
+
+.mainacc {
+    margin-top: 50px;
+    margin-left: 120px;
+
+}
+
+
+
+
+
+.mainacc a {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    width: max-content;
+
+}
+
+.mainacc a:hover {
+    background-color: rgba(128, 128, 128, 0.477);
+    border-radius: 20px;
+}
+
+.mainacc a img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+.mainacc a .acc {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.mainacc a .acc span {
+    color: white;
+    font-size: 17px;
+    margin-right: 20px;
+}
+
+.mainacc a i {
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+main {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+main .main-faid {
+    width: 100%;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+.setting {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.setting p {
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.setting p:hover {
+    background-color: rgba(128, 128, 128, 0.645);
+}
+
+.setting i {
+    font-size: 14px;
+    padding: 10px;
+}
+
+.setting i:hover {
+    background-color: rgba(128, 128, 128, 0.644);
+    border-radius: 20px;
+}
+
+.poster {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.poster a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.poster a img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.poster a span {
+    font-size: 30px;
+    color: white;
+    opacity: 0.5;
+}
+
+.poster .menuz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.poster .menuz .menuu {
+    display: flex;
+    gap: 6px;
+
+}
+
+.poster .menuz .menuu i {
+    color: #2087cc;
+    font-size: 16px;
+}
+
+.poster .menuz button {
+    background-color: #21a3fa;
+    color: white;
+    font-size: 19px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin-left: 130px;
+}
+
+
+
+.club .mediaa {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-bottom: 20px;
+}
+
+.club .mediaa img {
+    width: 50px;
+    border-radius: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.club .mediaa span {
+    font-size: 16px;
+}
+
+.club .mediaa i {
+    margin-left: 30%;
+    font-size: 15px;
+}
+
+.club .tv {
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+.club .tv span {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.club .tv img {
+    width: 100%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.club .tv .menuuu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.club .tv .menuuu i {
+    color: gray;
+    font-size: 16px;
+}
+
+.side-faid {
+    width: 60%;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+
+}
+
+.side-faid .form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.side-faid .form input {
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #202327;
+    font-size: 16px;
+}
+
+.side-faid .form i {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    opacity: 0.5;
+}
+
+.side-faid .sub {
+    width: 80%;
+    background-color: #202327;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+.side-faid .sub h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.side-faid .sub p {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.side-faid .sub button {
+    background-color: #21a3fa;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    width: 100px;
+    font-size: 16px;
+}
+
+.side-faid .followings {
+    width: 80%;
+    background-color: #202327;
+    padding: 15px;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+.side-faid .followings h2 {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.side-faid .followings h2>* {
+    margin-bottom: 20px;
+}
+
+.side-faid .followings .coool {
+    display: flex;
+    justify-content: space-between;
+}
+
+.side-faid .followings .coool>* {
+    margin-bottom: 20px;
+}
+
+.side-faid .followings .coool p {
+    font-size: 18px;
+}
+
+.follow {
+    width: 80%;
+    background-color: #202327;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+
+}
+
+.follow h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.follow .opp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.follow .opp a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 7px;
+}
+
+.follow .opp a img {
+    width: 60px;
+    border-radius: 50%;
+}
+
+.clubss p {
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    margin-bottom: 5px;
+}
+
+.follow .opp button {
+    color: black;
+    font-size: 17px;
+    width: 90px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: #d7dbdc;
+    border: none;
+    cursor: pointer;
+}
+
+.follow .opp>* {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    header .top span {
+        display: none;
+    }
+
+    .top button {
+        display: none;
+    }
+
+    .mainacc {
+        margin-left: 40px;
+    }
+
+    .mainacc a .acc span {
+        display: none;
+    }
+
+    .mainacc a i {
+        display: none;
+    }
+
+    .side-faid {
+        display: none;
+    }
+
+    main .main-faid {
+        width: 90%;
+    }
+
+    .poster .menuz button {
+        margin-left: 60px;
+    }
+
+    .setting {
+        width: 60%;
+    }
+
+}
